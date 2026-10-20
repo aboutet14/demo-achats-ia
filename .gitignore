@@ -1,0 +1,14 @@
+# Environnement Python local (recréé automatiquement en ligne)
+.venv/
+__pycache__/
+*.pyc
+
+# Fichiers système macOS
+.DS_Store
+
+# Secrets éventuels (clé d'API) : ne jamais publier
+.streamlit/secrets.toml
+.env
+
+# Vrais devis : à garder hors du dépôt public
+donnees_reelles/

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="40" viewBox="0 0 220 40">
+  <rect x="0" y="4" width="32" height="32" rx="8" fill="#F2B544"/>
+  <path d="M8 27 L14 19 L19 23 L25 12" stroke="#0F2A47" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="42" y="27" font-family="Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">Achats <tspan fill="#F2B544">×</tspan> IA</text>
+</svg>

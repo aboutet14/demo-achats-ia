@@ -1,0 +1,73 @@
+{
+  "_note": "Toutes les entreprises et tous les chiffres sont fictifs. Montants en millions d'euros (dernier exercice clos).",
+  "fournisseurs": [
+    {
+      "id": "A",
+      "nom": "Cartonnages du Rhône",
+      "pays": "France",
+      "ville": "Villefranche-sur-Saône",
+      "statut": "Fournisseur actuel (depuis 2021)",
+      "chiffre_affaires": 24.5,
+      "resultat_net": 1.1,
+      "resultat_net_n_1": 0.9,
+      "fonds_propres": 9.8,
+      "dettes_financieres": 3.2,
+      "tresorerie": 2.4,
+      "note_solvabilite_sur_20": 16,
+      "incidents_paiement": false,
+      "certifications": ["ISO 9001", "FSC®"],
+      "commentaire": "Rentable et peu endetté. Taux de service historique de 97 %."
+    },
+    {
+      "id": "B",
+      "nom": "Pak-Display",
+      "pays": "Pologne",
+      "ville": "Poznań",
+      "statut": "Nouveau fournisseur",
+      "chiffre_affaires": 11.2,
+      "resultat_net": 0.35,
+      "resultat_net_n_1": 0.28,
+      "fonds_propres": 3.1,
+      "dettes_financieres": 2.9,
+      "tresorerie": 0.6,
+      "note_solvabilite_sur_20": 12,
+      "incidents_paiement": false,
+      "certifications": ["ISO 9001", "FSC®"],
+      "commentaire": "Rentabilité modeste mais en progression. Endettement proche des fonds propres."
+    },
+    {
+      "id": "C",
+      "nom": "Expositores Atlântico",
+      "pays": "Portugal",
+      "ville": "Porto",
+      "statut": "Nouveau fournisseur",
+      "chiffre_affaires": 6.8,
+      "resultat_net": -0.42,
+      "resultat_net_n_1": -0.18,
+      "fonds_propres": 0.9,
+      "dettes_financieres": 3.6,
+      "tresorerie": 0.15,
+      "note_solvabilite_sur_20": 6,
+      "incidents_paiement": true,
+      "certifications": ["FSC®"],
+      "commentaire": "Deux exercices en perte, dettes 4 fois supérieures aux fonds propres, incidents de paiement signalés."
+    },
+    {
+      "id": "D",
+      "nom": "Anatolia Ambalaj",
+      "pays": "Turquie",
+      "ville": "Istanbul",
+      "statut": "Nouveau fournisseur",
+      "chiffre_affaires": 16.4,
+      "resultat_net": 0.9,
+      "resultat_net_n_1": 1.2,
+      "fonds_propres": 5.2,
+      "dettes_financieres": 4.1,
+      "tresorerie": 1.1,
+      "note_solvabilite_sur_20": 11,
+      "incidents_paiement": false,
+      "certifications": ["ISO 9001"],
+      "commentaire": "Rentable, mais comptes non audités (fiabilité limitée) et contexte pays à forte inflation."
+    }
+  ]
+}

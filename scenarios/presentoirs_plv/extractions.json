@@ -1,0 +1,174 @@
+{
+  "_note": "Extraction réalisée par IA (Claude) à partir des 4 devis du dossier « devis », le 20/10/2026. L'acheteur peut corriger chaque valeur dans l'application.",
+  "_conventions": {
+    "jours_paiement": "Nombre de jours entre la livraison et le paiement du solde (négatif = payé avant la livraison).",
+    "acompte_pct": "Part payée à la commande, en %.",
+    "quantite_minimum": "0 = pas de minimum de commande."
+  },
+  "devis": [
+    {
+      "id": "A",
+      "fichier": "A_Cartonnages_du_Rhone.pdf",
+      "format": "Devis PDF",
+      "langue": "Français",
+      "fournisseur": "Cartonnages du Rhône SAS",
+      "pays": "France",
+      "reference": "CDR-2026-1187",
+      "date": "2026-10-12",
+      "devise": "EUR",
+      "prix_unitaire": 18.90,
+      "quantite_proposee": 2000,
+      "quantite_minimum": 0,
+      "frais_fixes": [
+        {"libelle": "Forme de découpe et clichés", "montant": 0, "note": "inclus"},
+        {"libelle": "Livraison DAP Lyon (20 palettes)", "montant": 0, "note": "incluse"}
+      ],
+      "incoterm": "DAP",
+      "lieu_incoterm": "Lyon, entrepôt Orvalis",
+      "delai_semaines": 3,
+      "delai_point_depart": "après validation du BAT",
+      "paiement_texte": "45 jours fin de mois à compter de la date de facture",
+      "acompte_pct": 0,
+      "jours_paiement": 60,
+      "jours_paiement_note": "45 jours fin de mois ≈ 60 jours en moyenne après la facture (plafond légal en France)",
+      "escompte_pct": 0,
+      "escompte_jours": 0,
+      "validite_jours": 60,
+      "remise_volume": "Aucune",
+      "tolerance_quantite": "± 3 %",
+      "revision_prix": "Prix fermes et non révisables pendant la validité",
+      "conditions_particulieres": [
+        "BAT numérique sous 48 h, maquette blanche offerte",
+        "Carton certifié FSC® Mix sur demande, sans supplément"
+      ],
+      "points_attention": [
+        "Tolérance de ± 3 % : jusqu'à 60 présentoirs de plus peuvent être livrés et facturés."
+      ]
+    },
+    {
+      "id": "B",
+      "fichier": "B_Pak-Display_quotation.pdf",
+      "format": "Devis PDF",
+      "langue": "Anglais",
+      "fournisseur": "Pak-Display Sp. z o.o.",
+      "pays": "Pologne",
+      "reference": "PD/Q/2026/0954",
+      "date": "2026-10-14",
+      "devise": "EUR",
+      "prix_unitaire": 13.40,
+      "quantite_proposee": 2000,
+      "quantite_minimum": 0,
+      "frais_fixes": [
+        {"libelle": "Forme de découpe et plaques d'impression", "montant": 1450, "note": "facturé à part"},
+        {"libelle": "Palettisation (20 palettes × 9 €)", "montant": 180, "note": "facturé à part"}
+      ],
+      "incoterm": "FCA",
+      "lieu_incoterm": "Poznań (Pologne)",
+      "delai_semaines": 4,
+      "delai_point_depart": "après validation du BAT",
+      "paiement_texte": "30 jours net date de facture",
+      "acompte_pct": 0,
+      "jours_paiement": 30,
+      "jours_paiement_note": "",
+      "escompte_pct": 0,
+      "escompte_jours": 0,
+      "validite_jours": 30,
+      "remise_volume": "3 % à partir de 2 500 pièces",
+      "tolerance_quantite": "± 5 %, facturé au prix unitaire",
+      "revision_prix": "Indexation sur l'indice du carton ondulé (sept. 2026) si variation > 5 % avant confirmation de commande",
+      "conditions_particulieres": [
+        "2 échantillons blancs gratuits",
+        "Prototype imprimé : 250 €"
+      ],
+      "points_attention": [
+        "FCA : transport et assurance jusqu'à Lyon à la charge de l'acheteur.",
+        "Outillage non inclus : + 0,73 € par présentoir sur 2 000 unités.",
+        "Prix non ferme : clause d'indexation sur le prix du carton.",
+        "Tolérance de ± 5 % : jusqu'à 100 présentoirs de plus peuvent être facturés.",
+        "Validité courte (30 jours, jusqu'au 13/11/2026)."
+      ]
+    },
+    {
+      "id": "C",
+      "fichier": "C_Expositores_Atlantico_email.txt",
+      "format": "E-mail",
+      "langue": "Français",
+      "fournisseur": "Expositores Atlântico, Lda",
+      "pays": "Portugal",
+      "reference": "Aucune (réponse par e-mail)",
+      "date": "2026-10-16",
+      "devise": "EUR",
+      "prix_unitaire": 13.20,
+      "quantite_proposee": 2500,
+      "quantite_minimum": 2500,
+      "frais_fixes": [
+        {"libelle": "Forme de découpe", "montant": 600, "note": "offerte à partir de la 2e commande"}
+      ],
+      "incoterm": "DAP",
+      "lieu_incoterm": "Lyon, entrepôt Orvalis",
+      "delai_semaines": 5,
+      "delai_point_depart": "après validation du BAT",
+      "paiement_texte": "45 jours date de facture ; escompte de 2 % pour paiement à 10 jours",
+      "acompte_pct": 0,
+      "jours_paiement": 45,
+      "jours_paiement_note": "",
+      "escompte_pct": 2,
+      "escompte_jours": 10,
+      "validite_jours": 15,
+      "remise_volume": "Non précisé",
+      "tolerance_quantite": "Non précisée",
+      "revision_prix": "Non précisé",
+      "conditions_particulieres": [
+        "Production possible dès réception de la commande"
+      ],
+      "points_attention": [
+        "Minimum de 2 500 unités pour un besoin de 2 000 : 500 présentoirs personnalisés en trop.",
+        "Validité très courte (15 jours) justifiée par une « forte demande » : pression commerciale.",
+        "Offre informelle par e-mail : ni référence, ni conditions générales, ni tolérance de quantité.",
+        "Escompte de 2 % pour 35 jours d'avance ≈ 21 % par an : très intéressant, à saisir si la trésorerie le permet."
+      ]
+    },
+    {
+      "id": "D",
+      "fichier": "D_Anatolia_Ambalaj_proforma.pdf",
+      "format": "Facture pro forma PDF",
+      "langue": "Anglais",
+      "fournisseur": "Anatolia Ambalaj San. ve Tic. A.S.",
+      "pays": "Turquie",
+      "reference": "AA-PI-26-3318",
+      "date": "2026-10-15",
+      "devise": "USD",
+      "prix_unitaire": 9.20,
+      "quantite_proposee": 2000,
+      "quantite_minimum": 0,
+      "frais_fixes": [
+        {"libelle": "Forme de découpe", "montant": 900, "note": "facturé à part (USD)"}
+      ],
+      "incoterm": "EXW",
+      "lieu_incoterm": "Usine d'Istanbul (Turquie)",
+      "delai_semaines": 7,
+      "delai_point_depart": "après réception de l'acompte et validation du BAT, hors transport",
+      "paiement_texte": "30 % d'acompte par virement à la commande, 70 % avant expédition",
+      "acompte_pct": 30,
+      "jours_paiement": -6,
+      "jours_paiement_note": "Solde payé avant l'expédition, soit environ 6 jours (durée du transport) avant la livraison",
+      "escompte_pct": 0,
+      "escompte_jours": 0,
+      "validite_jours": 45,
+      "remise_volume": "Non précisé",
+      "tolerance_quantite": "Non précisée",
+      "revision_prix": "Non précisé",
+      "conditions_particulieres": [
+        "Origine Turquie, certificat A.TR disponible sur demande",
+        "Contrôle final AQL 2.5 par le service qualité du fournisseur"
+      ],
+      "points_attention": [
+        "EXW : enlèvement, dédouanement export, transport, assurance et dédouanement import à la charge de l'acheteur. Demander au minimum du FCA.",
+        "100 % payé avant la livraison : aucun moyen de pression en cas de défaut qualité.",
+        "Prix en dollars : risque de change entre la commande et le paiement.",
+        "7 semaines + transport ≈ 8 semaines : risque de livrer après le 15/12/2026.",
+        "Contrôle qualité réalisé par le fournisseur lui-même : prévoir une inspection indépendante."
+      ]
+    }
+  ]
+}

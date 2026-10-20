@@ -1,0 +1,67 @@
+{
+  "_note": "Hypothèses de l'acheteur (fictives), modifiables dans l'application. Les prix et conditions des fournisseurs viennent des devis, pas d'ici.",
+  "generales": {
+    "date_commande": "2026-10-27",
+    "bat_jours": 7,
+    "taux_change": {
+      "USD": 1.1,
+      "GBP": 0.86,
+      "CHF": 0.94,
+      "PLN": 4.3
+    },
+    "provision_risque_change": 0.03,
+    "taux_financement_annuel": 0.06,
+    "cout_par_defaut_qualite_eur": 25,
+    "cout_stockage_palette_mois_eur": 12,
+    "presentoirs_par_palette": 100,
+    "duree_stockage_excedent_mois": 6,
+    "valeur_residuelle_excedent": 0.2
+  },
+  "par_fournisseur": {
+    "A": {
+      "transport_eur": 0,
+      "taux_assurance_transport": 0,
+      "dedouanement_export_eur": 0,
+      "dedouanement_import_eur": 0,
+      "taux_droits_douane": 0,
+      "cout_qualification_eur": 0,
+      "taux_defaut_estime": 0.005,
+      "transit_jours": 0,
+      "source_taux_defaut": "Historique réel du fournisseur actuel"
+    },
+    "B": {
+      "transport_eur": 2100,
+      "taux_assurance_transport": 0.001,
+      "dedouanement_export_eur": 0,
+      "dedouanement_import_eur": 0,
+      "taux_droits_douane": 0,
+      "cout_qualification_eur": 750,
+      "taux_defaut_estime": 0.015,
+      "transit_jours": 3,
+      "source_taux_defaut": "Estimation (nouveau fournisseur)"
+    },
+    "C": {
+      "transport_eur": 0,
+      "taux_assurance_transport": 0,
+      "dedouanement_export_eur": 0,
+      "dedouanement_import_eur": 0,
+      "taux_droits_douane": 0,
+      "cout_qualification_eur": 500,
+      "taux_defaut_estime": 0.01,
+      "transit_jours": 0,
+      "source_taux_defaut": "Estimation (nouveau fournisseur)"
+    },
+    "D": {
+      "transport_eur": 3400,
+      "taux_assurance_transport": 0.003,
+      "dedouanement_export_eur": 180,
+      "dedouanement_import_eur": 250,
+      "taux_droits_douane": 0,
+      "cout_qualification_eur": 1500,
+      "taux_defaut_estime": 0.03,
+      "transit_jours": 6,
+      "source_taux_defaut": "Estimation (nouveau fournisseur hors UE)",
+      "note_douane": "Chapitre 48 (papier et carton) : 0 % de droits de douane à l'importation dans l'UE. La TVA à l'import est récupérable, donc ce n'est pas un coût."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "titre": "Présentoirs de sol PLV – lancement de la gamme « Éclat »",
+  "acheteur": "Orvalis Cosmétiques (société fictive)",
+  "reference_consultation": "PLV-ECLAT-2026",
+  "produit": "Présentoir de sol en carton ondulé, 4 tablettes + fronton, impression quadri, 40 × 30 × 165 cm, livré à plat",
+  "quantite": 2000,
+  "unite": "présentoirs",
+  "lieu_livraison": "Entrepôt Orvalis, ZI Lyon Sud, 69 Lyon (France)",
+  "date_consultation": "2026-10-05",
+  "date_besoin": "2026-12-15",
+  "commentaire_besoin": "Présentoirs personnalisés pour un lancement en magasin : un excédent n'est pas réutilisable, un retard fait manquer le lancement.",
+  "nb_palettes": 20,
+  "devise_reference": "EUR"
+}
