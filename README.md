@@ -2,7 +2,7 @@
 
 Application de démonstration créée par **Alexis Boutet**, acheteur ([LinkedIn](https://www.linkedin.com/in/boutetalexis/)).
 
-👉 **Voir l'application en ligne :** *lien à venir*
+👉 **Voir l'application en ligne :** https://achats-ia-alexis-boutet.streamlit.app/
 
 ## Ce que montre la démonstration
 
