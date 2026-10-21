@@ -17,6 +17,7 @@ page = st.navigation([
     st.Page("vues/extraction.py", title="1. Extraction des devis", icon=":material/document_scanner:"),
     st.Page("vues/tco.py", title="2. TCO et décision", icon=":material/balance:"),
     st.Page("vues/negociation.py", title="3. Négociation", icon=":material/handshake:"),
+    st.Page("vues/kpi.py", title="4. Suivi fournisseur (KPI)", icon=":material/monitoring:"),
     st.Page("vues/methodologie.py", title="Méthodologie", icon=":material/info:"),
 ])
 

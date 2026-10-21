@@ -33,7 +33,8 @@ with col_lecture.container(border=True):
     st.markdown("1. **Extraction** : un e-mail, une pro forma en dollars, deux devis PDF… l'IA les met au même format.\n"
                 "2. **TCO** : le moins cher sur le devis n'est pas le moins cher au final.\n"
                 "3. **Décision** : bougez les curseurs, le classement change.\n"
-                "4. **Négociation** : leviers chiffrés, e-mail prêt à envoyer et note de décision en PDF.")
+                "4. **Négociation** : leviers chiffrés, e-mail prêt à envoyer et note de décision en PDF.\n"
+                "5. **Suivi fournisseur** : gain de négociation, ponctualité, prix facturé et scorecard.")
 
 st.markdown("#### Le parcours")
 etapes = [
@@ -43,8 +44,10 @@ etapes = [
      "qualité…) puis score pondéré selon vos priorités.", "vues/tco.py"),
     ("3", "Négociation", "Leviers chiffrés pour chaque fournisseur, position de négociation, brouillon d'e-mail "
      "et note de décision en PDF.", "vues/negociation.py"),
+    ("4", "Suivi fournisseur", "Après la signature : gain de négociation, ponctualité, taux de service, contrôle "
+     "du prix facturé et scorecard pondérée.", "vues/kpi.py"),
 ]
-for col, (num, titre, texte, page) in zip(st.columns(3, gap="medium"), etapes):
+for col, (num, titre, texte, page) in zip(st.columns(4, gap="medium"), etapes):
     with col:
         st.html(f'<div class="etape"><div class="num{"" if page else " inactif"}">{num}</div>'
                 f'<div class="titre">{e(titre)}</div><div class="texte">{e(texte)}</div></div>')
